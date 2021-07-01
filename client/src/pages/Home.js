@@ -3,6 +3,12 @@ import prod from '../Products'
 import Product from '../components/Product'
 
 export default function () {
-    return <Product prod={prod} />
-        
-}
+   return (
+        <div>
+            <div className="row justify-content-center">
+                {prod.map(prod=> {
+                    return <Product prod={prod}/>
+                })}
+            </div>
+        </div>
+   )}
