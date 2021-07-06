@@ -21,16 +21,18 @@ export default function Prod_descr({ match }) {
           <hr />
          
             <h1>Select Quantity</h1>
-            <br />
-
+            
+            <p>
             <select>
               {[...Array(product.countInStock).keys()].map((x, i) => {
                 return <option value={i + 1}>{i + 1}</option>;
               })}
             </select>
+            
           
           <hr />
           <button className="btn btn-dark">ADD TO CART</button>
+          </p>
         </div>
       </div>
     </div>
