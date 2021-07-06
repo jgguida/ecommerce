@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Minha Vendinha
         </a>
         <button

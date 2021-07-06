@@ -28,3 +28,16 @@ h1{
 .img-fluid{
   height: 200px !important;
 }
+.bigimg{
+  height: 300px !important;
+}
+p{
+  text-align: left !important;
+}
+.selet{
+  text-align: left !important;
+}
+.cont{
+  align-items: initial !important;
+ justify-content: left  !important;
+}
