@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg cover-full">
+        <a className="navbar-brand m-1 p-2" href="/">
           Minha Vendinha
         </a>
         <button

@@ -1,5 +1,7 @@
 import React from "react";
 import prod from "../Products";
+import { Rating } from "@material-ui/lab";
+
 export default function Prod_descr({ match }) {
   const productid = match.params.id;
   const product = prod.find((product) => product.id == productid);
@@ -32,7 +34,11 @@ export default function Prod_descr({ match }) {
           
           <hr />
           <button className="btn btn-dark">ADD TO CART</button>
+          
+          <hr />
+          <Rating name="read-only" value={product.rating} readOnly />
           </p>
+          
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@ const prod = [
   },
   {
     id:4,
-    rating: 4.5,
+    rating: 3,
     reviews: [],
     price: 4800,
     countInStock: 5,
@@ -53,7 +53,7 @@ const prod = [
   },
   {
     id:5,
-    rating: 5,
+    rating: 1,
     reviews: [],
     price: 800,
     countInStock: 7,
